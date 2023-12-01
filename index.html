@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>Example Header</p>
+    <p>Click following button to see the event</p>
+    <button id="btn">Click Me</button>
+    <p id="para"></p>
+
+</body>
+<!--Istediginiz kodu baglayin-->
+<script>
+    document.getElementById("btn").addEventListener("click", fun);
+    function fun() {
+        document.getElementById("para").innerHTML = "Hello World" + "<br>" + "Welcome to my page!";
+    }
+</script>
+
+</html>
