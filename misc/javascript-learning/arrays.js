@@ -70,3 +70,22 @@ console.log("Index 1 içerisindeki: " + index1);
 
 names.reverse();
 console.log(names);
+
+// dizi elemanları sıralama
+
+names.sort();
+console.log(names); // alfabetik olarak sıralar
+
+// veri ekleme metodu
+//concatenation
+
+let veri = names.concat(years);
+console.log(veri);
+
+// splice method
+
+names.splice(2, 0, "Hiho!");
+// 1. parametre hangi indisten başlanacağını
+// 2. parametre silinip silinmeyeceğini (1 silinir), (0 silinmez)
+// 3. parametre de hangi stringin ekleneceğini belirtir.
+console.log(veri);
